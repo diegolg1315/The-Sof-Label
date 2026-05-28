@@ -1,0 +1,130 @@
+/* FONDO GENERAL */
+body{
+    background:#EDEDED;
+}
+
+body{
+    font-family:'Sansation', sans-serif;
+}
+h1{
+    font-family:'Keania One', sans-serif;
+}
+
+/* NAVBAR */
+.custom-navbar{
+    background:black;
+    padding:15px 40px;
+}
+
+/* LOGO */
+.navbar-brand{
+    color:white !important;
+    font-weight:bold;
+    font-size:25px;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+/* LINKS */
+.nav-link{
+    color:white !important;
+    font-family:"Keania One",sans-serif;
+    font-size:18px;
+    letter-spacing: 1px;
+    transition:0.3s;
+}
+
+/* HOVER */
+.nav-link:hover{
+    color:#F8B6BA !important;
+}
+
+/* FOOTER */
+
+.custom-footer{
+    background:black;
+}
+
+/*TITULO FOOTER*/
+
+.footer-title {
+    color:white;
+    font-size:18px;
+    font-family: "Keania One", sans-serif;
+    letter-spacing:1px;
+}
+
+/* LOGO FOOTER */
+
+.footer-logo{
+    width:120px;
+}
+
+/* REDES */
+
+.custom-footer a{
+    transition:0.3s;
+}
+
+.custom-footer a:hover{
+    color:#ffb6d9 !important;
+}
+
+/* COPYRIGHT */
+
+.copyright{
+    color:white;
+    font-size:14px;
+    font-family:"Keania One", sans-serif;
+    letter-spacing:1px;
+}
+
+/* ICONOS NAVBAR */
+
+.nav-icons a{
+    color:white;
+    font-size:22px;
+    transition:0.3s;
+}
+
+.nav-icons a:hover{
+    color:#ffb6d9;
+}
+
+
+/* TEXTO BANNER */
+
+.carousel-item{
+    position:relative;
+}
+
+.banner-text{
+    position:absolute;
+    top:50%;
+    left:20%;
+    transform:translateY(-50%);
+    color:black;
+}
+
+/* TITULO */
+
+.banner-text h1, h2, h3, h4, h6{
+    font-size:70px;
+    font-family:'Keania One', sans-serif;
+    letter-spacing:2px;
+    text-shadow: 2px 2px 10px white;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
